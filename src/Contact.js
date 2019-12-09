@@ -16,7 +16,8 @@ class Contact extends React.Component{
           <div>
              <h2> <Icon name=' large address card outline' />{this.state.email} <br/>
              <Icon name='  phone' /> {this.state.phone}  <br/>
-             < Icon name ='location arrow'  /> {this.state.location}</h2>
+             < Icon name ='location arrow'  /> {this.state.location}</h2> 
+             
             </div>
         );
     };
